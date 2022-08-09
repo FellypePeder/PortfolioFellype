@@ -1,3 +1,25 @@
 :root{
     --fonte-principal: 'Raleway';
 }
+
+body{
+    font-family: var(--fonte-principal);
+}
+
+#apresentacao{
+    height: 100vh;
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+}
+
+.apresentacao-boas-vindas{
+    margin-top: 1%;
+    font-size: 30px;
+}
+
+.foto-principal{
+    margin-top: 2em;
+    border-radius: 100%;
+    width: 55%;
+}
