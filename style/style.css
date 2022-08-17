@@ -1,0 +1,74 @@
+body {
+  background-color: #1d1d1d;
+  color: #b9b9b9;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-header {
+  margin: 2.5% 5%;
+}
+.nav-header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-header .nav-bar a {
+  padding-left: 5%;
+  text-decoration: none;
+  color: inherit;
+}
+.nav-header .nav-bar .nav-botoes .lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header .nav-bar .nav-botoes .lista a:hover {
+  color: #40b9ff;
+}
+.nav-header .nav-bar .nav-botoes .lista .itens-lista {
+  display: flex;
+  padding-right: 40px;
+  counter-increment: item;
+  font-weight: 500;
+}
+.nav-header .nav-bar .nav-botoes .lista .itens-lista::before {
+  content: "0" counter(item) ".";
+  font-size: 15px;
+  color: #40b9ff;
+}
+.nav-header .nav-bar .nav-botoes .lista .curriculo {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-header .nav-bar .nav-botoes .lista .curriculo:hover {
+  background-color: #2c2c2c;
+  color: #b9b9b9;
+}
+
+.conteudo-bordas {
+  padding: 0 250px 0 250px;
+}
+.conteudo-bordas .secao-apresentacao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
+  align-items: flex-start;
+}
+.conteudo-bordas .secao-apresentacao h1 {
+  font-size: 20px;
+  margin-bottom: 1em;
+  color: #40b9ff;
+}
+.conteudo-bordas .secao-apresentacao .nome {
+  margin-bottom: 1%;
+  font-size: 70px;
+  font-weight: 700;
+}
+.conteudo-bordas .secao-apresentacao .descricao {
+  color: rgb(141, 141, 141);
+  font-size: 70px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
