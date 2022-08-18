@@ -3,6 +3,8 @@ $cor-fundo-secundaria: #424242;
 $cor-fonte: #b9b9b9;
 $cor-fonte-secundaria: #40b9ff;
 $cor-fonte-terciaria: rgb(141, 141, 141);
+$cor-scrollbar: #5b5b5b;
+
 $fonte-principal: 'Poppins', sans-serif;
 $transicao: all 0.25scubic-bezier(0.65, 0.05, 0.36, 1);
 
@@ -10,6 +12,16 @@ body{
     background-color: $cor-fundo;
     color: $cor-fonte;
     font-family: $fonte-principal;
+    &::-webkit-scrollbar {
+        width: 11px;
+    }
+    &::-webkit-scrollbar-track {
+        background: #1d1d1d;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $cor-scrollbar;
+        border-radius: 15px;
+    }
 }
 
 .nav-header{
@@ -100,7 +112,7 @@ body{
                 font-size: 25px;
                 &:hover{
                     color: $cor-fonte-secundaria;
-                    transform: translateY(-3px);
+                    transform: translateY(-1px);
                 }
             }
         }

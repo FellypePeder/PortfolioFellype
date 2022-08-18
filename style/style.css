@@ -3,6 +3,16 @@ body {
   color: #b9b9b9;
   font-family: "Poppins", sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #5b5b5b;
+  border-radius: 15px;
+}
 
 .nav-header {
   margin: 2.5% 2em;
@@ -92,7 +102,7 @@ body {
 }
 .redes-sociais .lista-redes-sociais .itens-lista-social #icone-rede:hover {
   color: #40b9ff;
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 .esquerda {
