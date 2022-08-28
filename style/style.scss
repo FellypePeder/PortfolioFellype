@@ -1,8 +1,8 @@
 $cor-fundo: #1d1d1d;
-$cor-fundo-secundaria: #424242;
+$cor-fundo-secundaria: #4e4e4e;
 $cor-fonte: #b9b9b9;
 $cor-fonte-secundaria: #40b9ff;
-$cor-fonte-terciaria: rgb(141, 141, 141);
+$cor-fonte-terciaria: rgb(99, 99, 99);
 $cor-scrollbar: #5b5b5b;
 
 $fonte-principal: 'Poppins', sans-serif;
@@ -79,7 +79,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        min-height: 90vh;
+        min-height: 100vh;
         align-items: flex-start;
         h1{
             font-size: 20px;
@@ -93,7 +93,7 @@ body{
         }
         .descricao{
             color: $cor-fonte-terciaria;
-            font-size: 70px;
+            font-size: 60px;
             font-weight: 700;
         }
     }
@@ -123,17 +123,7 @@ body{
     orientation: left;
     .linha-vertical-esquerda{
         border-left: 2px solid $cor-fonte;
-        height: 200px;
+        height: 120px;
         margin-left: 0.52em;
-    }
-}
-
-.direita{
-    position: fixed;
-    bottom: 0;
-    .linha-vertical-direita{
-        border-right: 2px solid $cor-fonte;
-        height: 200px;
-        writing-mode: vertical-rl;
     }
 }

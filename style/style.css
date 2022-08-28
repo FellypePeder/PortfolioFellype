@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 .nav-header .nav-bar .nav-botoes .lista .curriculo:hover {
-  background-color: #424242;
+  background-color: #4e4e4e;
   color: #b9b9b9;
 }
 
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 100vh;
   align-items: flex-start;
 }
 .conteudo-bordas .secao-apresentacao h1 {
@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
 }
 .conteudo-bordas .secao-apresentacao .descricao {
-  color: rgb(141, 141, 141);
-  font-size: 70px;
+  color: rgb(99, 99, 99);
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -110,17 +110,6 @@ body::-webkit-scrollbar-thumb {
 }
 .esquerda .linha-vertical-esquerda {
   border-left: 2px solid #b9b9b9;
-  height: 200px;
+  height: 120px;
   margin-left: 0.52em;
-}
-
-.direita {
-  position: fixed;
-  bottom: 0;
-}
-.direita .linha-vertical-direita {
-  border-right: 2px solid #b9b9b9;
-  height: 200px;
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
 }/*# sourceMappingURL=style.css.map */
